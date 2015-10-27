@@ -1,0 +1,20 @@
+{
+  "name": "http-offline-proxy",
+  "version": "1.0.0",
+  "description": "2 part proxy, first capture and store HTTP requests in sqlite db then serve them offline",
+  "main": "capture.js",
+  "author": "Diogo Costa <costa.h4evr@gmail.com>",
+  "license": "MIT",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/h4evr/http-offline-proxy"
+  },
+  "dependencies": {
+    "buffers": "^0.1.1",
+    "connect": "^3.4.0",
+    "http-proxy": "^1.12.0",
+    "md5": "^2.0.0",
+    "sqlite3": "^3.1.0",
+    "stream-buffers": "^2.2.0"
+  }
+}
